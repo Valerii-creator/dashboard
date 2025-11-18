@@ -1,4 +1,3 @@
-
 import React from "react";
 
 const DashboardHeader = (props) => {
@@ -16,7 +15,10 @@ const DashboardHeader = (props) => {
 
   return React.createElement(
     "header",
-    { className: "flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between" },
+    {
+      className:
+        "flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between",
+    },
     // Левая часть: заголовок и подзаголовок
     React.createElement(
       "div",
@@ -80,4 +82,3 @@ const DashboardHeader = (props) => {
 };
 
 export default DashboardHeader;
-
