@@ -1,0 +1,5 @@
+{
+  "name": "Interactive Financial Dashboard",
+  "description": "An interactive BI dashboard to visualize financial data including sales, profit, revenue, and costs from a daily report.",
+  "requestFramePermissions": []
+}
